@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none; 
+
+}
+
+body{
+
+    background-image: url(../img/ceuazul.jpg); /* dois pontos serve pra sair da pasta e buscar do começo */
+    background: cover; /* opção cover utiliza a imagem da melhor maneira possivel */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.login{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    backdrop-filter: blur(5px);       
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 30px;
+       
+    
+    
+}
+
+.login{
+    
+    
+    line-height: 1.9;
+    border-radius: 25px;
+
+}
+
+.botaologin {
+      
+    padding: 10px;
+    
+
+}
+
+.btn:hover {
+      background-color: green;
+      color: black;
+
+}
+ 
+.btn{
+
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px solid rgb(2, 8, 8);
+    color: rgb(1, 7, 7);
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: .20s ;
+    
+          
+    
+}
+
+@media screen and(max-width:  1100px){
+    .login{
+        flex: 50%;
+    }
+}
+
+
+
